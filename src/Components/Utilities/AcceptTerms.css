@@ -1,0 +1,18 @@
+.accept-terms {
+    position: fixed;
+    z-index: 3;
+    bottom: 20px;
+    left: 70px;
+    box-shadow: 0 .1rem .6rem rgba(0, 0, 0, .9);
+    border-radius: .6rem;
+    padding: 15px 25px;
+    background: #efef;
+}
+
+.accept-terms input[type='submit'] {
+    border-radius: .6rem;
+    outline: none;
+    background: #080;
+    color: #efef;
+    padding: 8px 20px;
+}

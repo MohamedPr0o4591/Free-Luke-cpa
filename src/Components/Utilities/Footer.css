@@ -1,0 +1,36 @@
+footer {
+    background: #0e0e0e;
+    padding: 20px;
+    z-index: 2;
+    position: relative;
+}
+
+.footer-dark {
+    background: #140033;
+    box-shadow: 0 0.1rem 0.5rem rgba(225, 225, 225, .7);
+}
+
+footer .trustPilot a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #efef;
+    justify-content: end;
+}
+
+footer .trustPilot img {
+    max-width: 8rem;
+}
+
+footer .socialMedia a {
+    text-decoration: none;
+    color: #efef;
+    display: flex;
+}
+
+footer .socialMedia i {
+    font-size: 1.2rem;
+    border-radius: 50%;
+    outline: 1px solid #efef;
+    padding: .2rem;
+}

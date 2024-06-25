@@ -1,0 +1,54 @@
+.profile-page {
+    min-height: calc(100vh - 229.633px);
+    margin-left: 75px;
+    padding: 1rem 2rem;
+}
+
+.profile-page .user-info-container img {
+    max-width: 187px;
+    border-radius: .6rem;
+}
+
+.profile-page .user-info-container .upload-img {
+    cursor: pointer;
+    border: 2px dashed #efef;
+    border-radius: .4rem;
+    padding: 8px 10px;
+    background: #060;
+}
+
+.profile-page .user-info-container .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile-page .download-google-play,
+.profile-page .download-app-store {
+    padding: 8px 20px;
+    box-shadow: 0 .1rem .6rem rgba(0, 0, 0, .78);
+    border-radius: .7rem;
+    background: #070;
+    color: #efe;
+    font-size: 1.1rem;
+}
+
+.profile-page .download-app-store {
+    background: #011c01;
+}
+
+.profile-page .our-application {
+    padding: 20px;
+    border-radius: .7rem;
+    box-shadow: 0 .1rem .6rem rgba(0, 0, 0, .9);
+}
+
+.profile-page .trans_table .card-view {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 10px 20px;
+    border-radius: .6rem;
+    box-shadow: 0 .1rem .6rem rgba(0, 0, 0, .8);
+    font-weight: bold;
+}

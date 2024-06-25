@@ -1,0 +1,67 @@
+.register-page {
+    position: relative;
+    min-height: calc(100vh - 219.59px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-page .reg-auth {
+    position: relative;
+    width: 450px;
+    box-shadow: 0 .1rem .5rem rgba(0, 0, 0, .2);
+    border-radius: 8px;
+}
+
+.register-page form {
+    position: relative;
+    padding: 40px 50px;
+}
+
+.register-page .input-box {
+    position: relative;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.register-page .input-box input {
+    position: relative;
+    width: 100%;
+    outline: none;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: all .5s ease;
+    background: transparent;
+}
+
+.register-page .input-box span {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    pointer-events: none;
+    opacity: 0.56;
+    transition: all .5s ease;
+}
+
+.register-page .input-box input:focus~span,
+.register-page .input-box input:valid~span {
+    font-size: .8rem;
+    opacity: 1;
+    transform: translateY(-21px);
+    padding: 1px;
+    background: #f9f7f7;
+}
+
+.register-page input[type='submit'] {
+    margin-top: 2rem;
+    width: 100%;
+    padding: 10px 20px;
+    background: #000;
+    color: #efef;
+    border-radius: 4px;
+}
+
+.register-page input[type='submit']:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,6 @@
+.dashboard-page {
+    min-height: calc(100vh - 219.59px);
+    padding: 1rem 2rem;
+    width: calc(99vw - 75px);
+    margin-left: 75px;
+}

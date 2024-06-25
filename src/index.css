@@ -1,0 +1,13 @@
+* {
+  font-family: 'Rubik', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  --bs-body-bg: #f9f7f7;
+}
+
+a {
+  text-decoration: none !important;
+
+}

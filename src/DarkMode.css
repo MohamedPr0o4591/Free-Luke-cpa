@@ -1,0 +1,31 @@
+body.darkMode {
+    --bs-body-bg: #200051;
+    --bs-body-color: #efef;
+}
+
+body.darkMode input {
+    color: #efef;
+    outline-color: #efef;
+}
+
+body.darkMode button {
+    color: #efef;
+    --bs-btn-close-color: #efef
+}
+
+body.darkMode .offerCard {
+    background: #0e0e0e;
+}
+
+body.darkMode bold {
+    --bs-dark-rgb: 255, 255, 255;
+}
+
+body.darkMode .nav-item {
+    --bs-nav-pills-link-active-bg: #0d6efd;
+}
+
+body.darkMode .points-user {
+    box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, .65);
+    color: #efef;
+}

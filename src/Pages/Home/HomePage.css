@@ -1,0 +1,52 @@
+.earns-imgs-container .child-img {
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    overflow: hidden;
+    box-shadow: 0 .1rem .5rem rgba(0, 0, 0, .2);
+}
+
+.home-container {
+    min-height: calc(100vh - 56px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-container .right-img {
+    border-radius: 50%;
+    box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, .2);
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
+
+.home-container .total-statistics {
+    width: 80%;
+    border-radius: 0.9rem;
+    padding: 1rem;
+    background: darkred;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-container .total-statistics ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #efef;
+}
+
+.home-container .socialMedia .cardify {
+    text-decoration: none;
+    color: #efef;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 0.6rem;
+    display: flex;
+    align-items: center;
+}
+
+.home-container .socialMedia .cardify i {
+    font-size: 1.5em;
+}

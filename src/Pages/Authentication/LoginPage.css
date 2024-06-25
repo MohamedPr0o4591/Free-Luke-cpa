@@ -1,0 +1,80 @@
+.login-page {
+    position: relative;
+    min-height: calc(100vh - 219.59px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-page .login-auth {
+    position: relative;
+    width: 450px;
+    height: 400px;
+    box-shadow: 0 .1rem .5rem rgba(0, 0, 0, .2);
+    border-radius: 8px;
+}
+
+.login-page .login-auth form {
+    position: absolute;
+    background: transparent;
+    inset: 4px;
+    border-radius: 8px;
+    padding: 40px 50px;
+    color: #000;
+}
+
+.login-page .input-box {
+    position: relative;
+    margin-top: 2rem;
+}
+
+.login-page .input-box input {
+    position: relative;
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: all .5s ease;
+}
+
+.login-page .input-box span {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    opacity: 0.4;
+    pointer-events: none;
+    transition: all .5s ease;
+}
+
+.login-page .input-box input:focus~span,
+.login-page .input-box input:valid~span {
+    transform: translateY(-23px);
+    font-size: .9rem;
+    background: #f9f7f7;
+    padding: 2px;
+    z-index: 1;
+    opacity: 1;
+}
+
+.login-page input[type='submit'] {
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 2rem;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    background: #000;
+    color: #efef;
+}
+
+.login-page input[type='submit']:hover {
+    opacity: 0.8;
+}
+
+.login-page .links {
+    margin-top: 1.5rem;
+    opacity: 0.7;
+}

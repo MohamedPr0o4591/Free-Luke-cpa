@@ -1,0 +1,137 @@
+.nav-left {
+    position: fixed;
+    height: 100vh;
+    width: 75px;
+    background: #212529;
+    z-index: 2;
+    padding-top: 56px;
+    display: flex;
+    transition: all .5s ease-out;
+}
+
+.logo-container {
+    width: 100%;
+}
+
+.bg-navbar {
+    background-color: #35076f;
+    box-shadow: 0 .1rem .6rem (0, 0, 0, .63);
+}
+
+.nav-left:hover {
+    width: 300px;
+    z-index: 3;
+}
+
+.nav-left:hover #earns::after {
+    content: 'Earns';
+    font-size: 1.35rem;
+}
+
+.nav-left:hover #profile::after {
+    content: 'Profile';
+    font-size: 1.35rem;
+}
+
+.nav-left:hover #earns,
+.nav-left:hover #profile,
+.nav-left:hover #cashOut,
+.nav-left:hover #log-out {
+    animation: showItem 3s ease;
+
+}
+
+.nav-left:hover #cashOut::after {
+    content: 'Cash out';
+    font-size: 1.35rem;
+}
+
+.nav-left:hover #log-out::after {
+    content: 'Log out';
+    font-size: 1.35rem;
+}
+
+@keyframes showItem {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+.nav-left ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+}
+
+.nav-left i {
+    font-size: 1.9rem;
+    transition: all .5s ease;
+    width: 100%;
+    margin: auto;
+    padding: 0.6rem 0;
+    color: #efef;
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem;
+}
+
+.nav-left .active {
+    border-radius: .4rem;
+    background: darkred;
+    color: #efef;
+    padding: 10px 20px;
+}
+
+.nav-left-dark {
+    background: #38076d;
+}
+
+.nav-left-dark .active {
+    background: darkblue;
+}
+
+.nav-left button {
+    background: #e00;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    width: 100%;
+}
+
+.nav-left button i:hover {
+    background: transparent;
+}
+
+#darkMode {
+    display: none;
+}
+
+.nav-item {
+    --bs-nav-pills-link-active-bg: #430d0d;
+}
+
+.points-user {
+    padding: 8px 10px;
+    background: transparent;
+    box-shadow: 0 0.1rem 0.5rem rgba(255, 255, 255, .65);
+    border-radius: 0.6rem;
+    color: #efef;
+}
+
+.fullscreen {
+    display: none !important;
+}
+
+.img-user {
+    background-position: center center !important;
+    background-size: cover !important;
+}
