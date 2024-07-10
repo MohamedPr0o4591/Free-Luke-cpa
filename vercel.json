@@ -1,0 +1,41 @@
+{
+    "routes": [
+      {
+        "src": "/login/forget",
+        "dest": "/login/forget"
+      },
+      {
+        "src": "/register",
+        "dest": "/register"
+      },
+      {
+        "src": "/dashboard",
+        "dest": "/dashboard"
+      },
+      {
+        "src": "/withdrawal",
+        "dest": "/withdrawal"
+      },
+      {
+        "src": "/profile",
+        "dest": "/profile"
+      },
+      {
+        "src": "/review/terms/conditions",
+        "dest": "/review/terms/conditions"
+      },
+      {
+        "src": "/review/terms/privacy",
+        "dest": "/review/terms/privacy"
+      },
+      {
+        "src": "/review/terms/cookies",
+        "dest": "/review/terms/cookies"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/"
+      }
+    ]
+  }
+  
